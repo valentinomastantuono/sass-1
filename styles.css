@@ -1,0 +1,32 @@
+.container h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgb(189, 128, 50);
+}
+
+header {
+  background-color: rgb(122, 84, 26);
+}
+
+nav ul li {
+  float: left;
+  margin: 30px;
+  list-style: none;
+}
+
+nav ul li:hover {
+  transform: scale(2);
+  transition: all 3s;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*# sourceMappingURL=styles.css.map */
